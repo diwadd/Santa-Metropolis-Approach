@@ -672,9 +672,6 @@ def metropolis_alg(initial_state, n_iter, \
         else:
             initial_state.reverse_random_state()
     
-    
-
-    
     return minimal_journey, iteration_array, wrw_array
 
 
